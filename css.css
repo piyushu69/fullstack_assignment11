@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+   background-color: rgb(56, 55, 55);
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: gray;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.middle{
+    width: 100%;
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    
+
+}
+
+.middle div.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.about{
+    width: 40%;
+}
+
+.middle h1{
+    font-size: 22px;
+    color: lightgray;
+    text-transform: uppercase;
+}
+
+.about p{
+    text-align: justify;
+    color: gray;
+    line-height: 20px;
+    margin-top: 10px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color: darkgoldenrod;
+}
+span{
+    color: gray;
+}
+i{
+    color: gray;
+    font-size: 20px;
+}
+.middle ul li{
+    list-style: none;
+    padding: 5px 5px;
+}
+
+.footer div.register{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.register p{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+.register a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    background-color: red;
+    margin-left: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+.register a:hover{
+    background-color: darkgoldenrod;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons ul{
+    list-style: none;
+    margin: 20px;
+}
+.icons ul li{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+.icons ul li i{
+    color: white;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 30px;
+
+}
+
+.text p{
+    color: gray;
+    position: relative;
+
+}
+
+.text p::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+    background-color: orange;
+    transition: all .3s;
+}
+
+.text p:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
